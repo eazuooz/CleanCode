@@ -34,12 +34,15 @@
     - int fileAgeInDays;
 - 예시 2
 
-```java
+```c++
 // Bad
-public List<int[]> getThem() {
-    List<int[]> list1 = new ArrayList<int[]>();
-    for (int[] x : theList) {
-        if (x[0] == 4) {
+public std::vector<int*> getThem() 
+{
+    std::vector<int*> list1 = new std::vector<int*>();
+    for (int* x : theList) 
+    {
+        if (x[0] == 4) 
+        {
             list1.add(x);
         }
     }
@@ -47,12 +50,15 @@ public List<int[]> getThem() {
 }
 ```
  
-```java
+```c++
 // Good
-public List<int[]> getFlaggedCells() {
-    List<int[]> flaggedCells = new ArrayList<int[]>();
-    for (int[] cell : gameBoard) {
-        if (cell[STATUS_VALUE] == FLAGGED) {
+public std::vector<int*> getFlaggedCells() 
+{
+    std::vector<int*> flaggedCells = new std::vector<int*>();
+    for (int* cell : gameBoard) 
+    {
+        if (cell[STATUS_VALUE] == FLAGGED) 
+        {
             flaggedCells.add(cell);
         }
     }
