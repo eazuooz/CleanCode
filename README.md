@@ -1,6 +1,7 @@
 ## Clean Code
 
-Clean Code 를 c++ 코딩스탠다드로 적용하여 만든 저장소입니다. 다음 gitbook 링크에서 편하게 살펴보실 수 있습니다.[https://app.gitbook.com/@innocarpe/s/clean-code](https://github.com/eazuooz/CleanCode)
+Clean Code 를 c++ 코딩스탠다드로 적용하여 만들고 있는 저장소입니다. 
+다음 gitbook 링크에서 편하게 살펴보실 수 있습니다.[https://app.gitbook.com/@innocarpe/s/clean-code](https://github.com/eazuooz/CleanCode)
 
 하단의 목차는 이 레포 내의 탐색을 위해 제공되고 있습니다. 
 
